@@ -1,0 +1,161 @@
+/* {
+  box-sizing: border-box;
+}
+/* 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('Evening.jpg') no-repeat center center/cover;
+  background-color: #d3d3d328 ;
+  color: white;
+} */
+.content-container {
+  width: 80%;
+  margin: auto;
+}
+
+.hero {
+  background: url('Evening.jpg') no-repeat center center/cover;
+  color: white;
+  
+  text-align: left;
+
+}
+.overlay{
+  padding: 100px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background-color: black;
+  padding: 15px 0px;
+  text-align: right;
+}
+
+.header a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-size: 24px;
+}
+
+.logo span {
+  color: orange;
+}
+
+
+
+.container {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+
+}
+
+.form-box {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0px 0px 10px 5px rgba(211, 211, 211, 0.459);
+}
+
+.form-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: #f7f7f7;
+  border-left: 0;
+  border-right: 0;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-box button:hover {
+  background-color: darkorange;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.social {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  text-align: center;
+  color: #111111;
+}
+
+.social-text {
+  margin-bottom: 20px;
+}
+
+.social-text h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-text p {
+  margin: 5px 0;
+  color: #999;
+  font-size: 14px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  vertical-align: middle;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    display: block;
+    /* text-align: center; */
+  }
+
+  .logo {
+    float: none;
+    display: block;
+    /* text-align: center; */
+    margin-bottom: 10px;
+  }
+
+  .header {
+
+    hr {
+      border: none;
+      height: 2;
+      background: #fff;
+      margin: 40px 0;
+    }
