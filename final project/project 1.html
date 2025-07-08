@@ -1,0 +1,1144 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="project 1.css">
+   <title>Tradex </title>
+    
+</head>
+<body>
+  <button id="scrollToCounterBtn" class="btn btn-primary d-none" style="position:fixed; bottom:20px; right:20px; z-index:1000;">
+  ⬇️
+</button>
+
+  <!-- header -->
+<header class="header">
+  <div class="bg-primary text-white py-2">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+      
+      <!-- Social Icons -->
+      <div class="col-md-auto d-flex gap-3">
+        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-google-plus-g"></i></a>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-auto d-flex align-items-center gap-2 border-start border-end px-3">
+        <i class="fas fa-location-dot"></i>
+        <span>267 Park Avenue New York, NY 90210</span>
+      </div>
+
+      <!-- Email & Phone -->
+      <div class="col-md-auto d-flex align-items-center gap-4">
+        <div class="d-flex align-items-center gap-2">
+          <i class="fas fa-envelope"></i> <span>Quick Email</span>
+        </div>
+        <div class="d-flex align-items-center gap-2 border-start ps-3">
+          <i class="fas fa-phone"></i> <span>+1 (409) 987–5874</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </div>
+</header>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+  <div class="container">
+    
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center fw-bold fs-3" href="#">
+    <img src="photo/1.PNG" alt="">
+
+    <!-- Toggler (للشاشات الصغيرة) -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <!-- Home Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">HOME</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+
+        <!-- About -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+
+        <!-- Headers Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">HEADERS</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Header 1</a></li>
+            <li><a class="dropdown-item" href="#">Header 2</a></li>
+          </ul>
+        </li>
+
+        <!-- Blog Post Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BLOG POST</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blog 1</a></li>
+            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+          </ul>
+        </li>
+
+        <!-- Services Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">SERVICES</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Service 1</a></li>
+            <li><a class="dropdown-item" href="#">Service 2</a></li>
+          </ul>
+        </li>
+
+        <!-- Features Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">FEATURES</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Feature 1</a></li>
+            <li><a class="dropdown-item" href="#">Feature 2</a></li>
+          </ul>
+        </li>
+
+        <!-- Pages Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PAGES</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Page 1</a></li>
+            <li><a class="dropdown-item" href="#">Page 2</a></li>
+          </ul>
+        </li>
+
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <!-- Carousel -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide position-relative">
+    
+    <!-- Indicators مربعات على اليمين -->
+    <div class="carousel-indicators position-absolute top-50 end-0 translate-middle-y d-flex flex-column me-3 gap-2">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+              class="active p-0 border-0 rounded-1 bg-black opacity-50"
+              style="width:12px; height:12px;"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              class="p-0 border-0 rounded-1 bg-black opacity-50"
+              style="width:12px; height:12px;"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              class="p-0 border-0 rounded-1 bg-black opacity-50"
+              style="width:12px; height:12px;"></button>
+    </div>
+
+    <div class="carousel-inner" class="">
+      
+      <!-- Slide 1 -->
+      <div class="carousel-item active" data-bs-interval="10000 /position-relative w-100/">
+        <img src="photo/2.jpg" class="d-block w-100" alt="Slide 1">
+        <!-- Overlay + Caption -->
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3">
+          <h2 class="fw-bold mb-3">First slide label</h2>
+          <p class="mb-4">Some representative placeholder content for the first slide.</p>
+          <div class="d-flex justify-content-center gap-3">
+            <button class="btn btn-light px-4">Learn More</button>
+            <button class="btn btn-warning px-4">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="photo/3.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3">
+          <h2 class="fw-bold mb-3">Second slide label</h2>
+          <p class="mb-4">Some representative placeholder content for the second slide.</p>
+          <div class="d-flex justify-content-center gap-3">
+            <button class="btn btn-light px-4">Learn More</button>
+            <button class="btn btn-warning px-4">Book Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="photo/4.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3">
+          <h2 class="fw-bold mb-3">Third slide label</h2>
+          <p class="mb-4">Some representative placeholder content for the third slide.</p>
+          <div class="d-flex justify-content-center gap-3">
+            <button class="btn btn-light px-4">Learn More</button>
+            <button class="btn btn-warning px-4">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <!-- Section Title -->
+  <div class="text-center mb-4">
+    <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">about Us</h2>
+            <div class="fs-4 text-primary">about Us</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+  </div>
+  <div class="row align-items-center">
+    <!-- Features List -->
+    <div class="col-lg-4 mb-4 position-relative">
+      <div class="bg-white p-4 shadow-sm">
+        <div class="d-flex mb-3">
+          <i class="fas fa-bullhorn fa-2x text-primary me-3"></i>
+          <div>
+            <h5 class="mb-1">Marketing</h5>
+            <p class="mb-0 text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="d-flex mb-3">
+          <i class="fas fa-sliders-h fa-2x text-primary me-3"></i>
+          <div>
+            <h5 class="mb-1">Great Usability</h5>
+            <p class="mb-0 text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="d-flex mb-3">
+          <i class="fas fa-pen-nib fa-2x text-primary me-3"></i>
+          <div>
+            <h5 class="mb-1">Unique Design</h5>
+            <p class="mb-0 text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="d-flex">
+          <i class="fas fa-thumbs-up fa-2x text-primary me-3"></i>
+          <div>
+            <h5 class="mb-1">Quick & Powerful</h5>
+            <p class="mb-0 text-muted">Lorem ipsum dolor sit amet, Aenea jkn consectetuer adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Image -->
+    <div class="col-lg-4 mb-4 text-center">
+      <img src="photo/2.jpg" alt="Team" class="img-fluid rounded shadow">
+    </div>
+    <!-- Description -->
+    <div class="col-lg-4">
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales sed, ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem pariatur.</p>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales sed, ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem pariatur.</p>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
+</div>
+ <!-- Stats Section -->
+  <div class="bg-light py-5">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-6 col-md-3">
+          <div class="d-inline-block bg-white p-3 rounded shadow-sm">
+            <i class="fas fa-desktop fa-2x text-danger mb-2"></i>
+            <h4 class="mb-1 counter" data-target="8000">0</h4>
+            <p class="text-muted mb-0">Total Projects</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="d-inline-block bg-white p-3 rounded shadow-sm">
+            <i class="fas fa-trophy fa-2x text-danger mb-2"></i>
+            <h4 class="mb-1 counter" data-target="810">0</h4>
+            <p class="text-muted mb-0">Won Awards</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="d-inline-block bg-white p-3 rounded shadow-sm">
+            <i class="fas fa-smile-beam fa-2x text-danger mb-2"></i>
+            <h4 class="mb-1 counter" data-target="2000">0</h4>
+            <p class="text-muted mb-0">Happy Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="d-inline-block bg-white p-3 rounded shadow-sm">
+            <i class="fas fa-calendar-alt fa-2x text-danger mb-2"></i>
+            <h4 class="mb-1 counter" data-target="20">0</h4>
+            <p class="text-muted mb-0">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<section class="hero-section d-flex align-items-center">
+  <div class="overlay-bg"></div>
+  <div class="container position-relative text-center" style="z-index: 1;">
+    <h2 class="text-white fw-bold mb-2">Our Services</h2>
+    <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+    <div class="row g-4">
+
+      <!-- Card Template -->
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fas fa-bullhorn fa-2x mb-2"></i>
+            <h6>Online Marketing</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>Online Marketing</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fas fa-pencil-ruler fa-2x mb-2"></i>
+            <h6>Web Design</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>Web Design</h6>
+            <p>Crafted with creativity and precision tailored to your needs.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fas fa-paint-brush fa-2x mb-2"></i>
+            <h6>Graphic Design</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>Graphic Design</h6>
+            <p>Delivering powerful visuals for strong brand impact.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fas fa-code fa-2x mb-2"></i>
+            <h6>Web Development</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>Web Development</h6>
+            <p>Modern, scalable, and fast-performing websites built right.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fas fa-network-wired fa-2x mb-2"></i>
+            <h6>Networking</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>Networking</h6>
+            <p>Efficient, secure network solutions for growing businesses.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4">
+        <div class="card-box">
+          <div class="card-content">
+            <i class="fab fa-wordpress fa-2x mb-2"></i>
+            <h6>WordPress Theme</h6>
+          </div>
+          <div class="card-overlay">
+            <h6>WordPress Theme</h6>
+            <p>Responsive, elegant and fully customizable themes.</p>
+            <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="text-center mb-4">
+    <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">our work</h2>
+            <div class="fs-4 text-primary">our work</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+  </div>
+  <div class="container text-center">
+    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <!-- Tabs -->
+    <ul class="nav nav-pills justify-content-center mb-4" id="filterTabs">
+      <li class="nav-item">
+        <button class="nav-link active" data-filter="all">All</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-filter="creative">Creative Design</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-filter="development">Development</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-filter="graphic">Graphic Design</button>
+      </li>
+    </ul>
+
+    <!-- Gallery -->
+    <div class="row g-4  " id="gallery">
+        <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4 filter-item creative"> 
+            <div class="work-img position-relative">
+              <img src="photo/4.jpg" class="img-fluid rounded shadow" alt="" />
+              <div class="overlay-box position-absolute bottom-0 start-10 end-0 bg-danger bg-opacity-75 text-white p-3">
+                <h6 class="mb-1 fw-bold">Creative Project 1</h6>
+                <p class="mb-1 small">Short description of the project.</p>
+                <a href="#" class="btn btn-sm mt-2" style="background-color: #d63384; color: white;">
+                  <i class="fas fa-plus"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<img src="photo/ecommerce-cover-2.jpg" class="img-fluid w-100">
+<p>
+</p>
+<p></p>
+<p></p>
+
+<section class="py-5 bg-white">
+    <div class="text-center mb-4">
+    <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">Our Creative Team</h2>
+            <div class="fs-4 text-primary">Our Creative Team</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+  </div>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team1.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">John Doe</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team5.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">John Doe</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team6.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">John Doe</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team4.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">John Doe</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team3.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">John Doe</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="team-card position-relative overflow-hidden rounded shadow" style="max-height: 300px;">
+          <img src="photo/team2.png" class="img-fluid w-100" alt="Member">
+          <div class="overlay-panel position-absolute bottom-0 start-0 w-100 bg-white text-center px-3 pt-2" style="height: 60px; transition: height 0.4s ease; z-index: 2; overflow: hidden;">
+            <div class="basic-info">
+              <h6 class="mb-0">sara mo</h6>
+              <small class="text-muted">Founder</small>
+            </div>
+            <div class="details opacity-0" style="transition: opacity 0.3s ease 0.2s;">
+              <p class="text-muted small mt-2">Expert in business planning and project strategy.</p>
+              <div class="d-flex justify-content-center gap-3 py-2" style="background-color: #d63384;">
+                <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div class="container py-5 text-center">
+   <div class="text-center mb-4">
+    <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">Our Pricing</h2>
+            <div class="fs-4 text-primary">Our Pricing</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+  </div>
+  <p class="text-muted mb-4 mx-auto" style="max-width: 600px;">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla tempor, nisi sed bibendum pretium, diam nisi mattis lectus.
+  </p>
+
+  <!-- Toggle -->
+  <div class="btn-group mb-5" role="group">
+    <button class="btn btn-primary text-white px-4">Per / Month</button>
+    <button class="btn btn-outline-primary px-4">Per / Year</button>
+  </div>
+
+  <div class="row g-4">
+    <!-- Personal -->
+    <div class="col-md-4">
+      <div class="border rounded shadow-sm p-4 h-100">
+        <h5 class="fw-bold mb-1">Personal</h5>
+        <p class="text-primary fw-semibold mb-3">From $399</p>
+        <hr class="opacity-25">
+        <ul class="list-unstyled text-start">
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>03 PSD Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <p></p>
+            <hr class="opacity-25">
+            <p></p>
+          </li>
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>03 Wordpress Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+          <li>
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>120 Support Ticket</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+        </ul>
+        <button class="btn btn-primary w-100 mt-4 rounded-pill">GET STARTED NOW</button>
+      </div>
+    </div>
+
+    <!-- Business (highlighted) -->
+    <div class="col-md-4">
+      <div class="border rounded shadow p-4 h-100 bg-white position-relative" style="z-index: 2;">
+        <h5 class="fw-bold mb-1">Business</h5>
+        <p class="text-primary fw-semibold mb-3">From $899</p>
+        <hr class="opacity-25">
+        <ul class="list-unstyled text-start">
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>05 PSD Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>05 Wordpress Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+          <li>
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>1000 Support Ticket</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+        </ul>
+        <button class="btn btn-outline-primary w-100 mt-4 rounded-pill">GET STARTED NOW</button>
+      </div>
+    </div>
+
+    <!-- Ultimate -->
+    <div class="col-md-4">
+      <div class="border rounded shadow-sm p-4 h-100">
+        <h5 class="fw-bold mb-1">Ultimate</h5>
+        <p class="text-primary fw-semibold mb-3">From $499</p>
+        <hr class="opacity-25">
+        <ul class="list-unstyled text-start">
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>20 PSD Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solut.</p>
+            <hr class="opacity-25">
+          </li>
+          <li class="mb-3">
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>20 Wordpress Pack</strong>
+            <p class="text-muted small mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla molestias enim eius tenetur solu</p>
+            <hr class="opacity-25">
+          </li>
+          <li>
+            <i class="text-primary me-2 fa fa-check"></i>
+            <strong>1500 Support Ticket</strong>
+            <p class="text-muted small mb-0"> minima quisquam culpa assumenda dolorem ex beatae perspiciatis, at nisi eligendi repellat nihil?</p>
+            <hr class="opacity-25">
+          </li>
+        </ul>
+        <button class="btn btn-primary w-100 mt-4 rounded-pill">GET STARTED NOW</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-dark py-4">
+  <div class="d-flex align-items-center justify-content-center">
+    <span class="text-white me-5" style="font-size: 1.3rem;">
+      <i class="fas fa-envelope me-2"></i>
+      Subscribe now for news
+    </span>
+    <form class="d-flex" style="max-width: 400px; width: 100%;">
+      <input type="email" class="form-control me-2" placeholder="Input your mail" required>
+      <button class="btn btn-primary" type="submit">Subscribe</button>
+    </form>
+  </div>
+</div>
+
+<div class="container py-5">
+  <div class="text-center mb-4">
+    <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">Testimonial</h2>
+            <div class="fs-4 text-primary">Testimonial</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+  <div class="owl-carousel owl-theme" id="testimonial-carousel">
+    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team1.png" class="rounded me-3" style="width:100px; height:100px;" alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>
+        <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team6.png" class="rounded me-3" style="width:100px; height:100px;" alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team3.png" class="rounded me-3" style="width:100px; height:100px; " alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team4.png" class="rounded me-3" style="width:100px; height:100px;" alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team3.png" class="rounded me-3" style="width:100px; height:100px;" alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team2.png" class="rounded me-3" style="width:100px; height:100px; " alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>    <div class="testimonial-card p-4 bg-white border rounded d-flex">
+      <img src="photo/team1.png" class="rounded " style="width:100px; height:100px; " alt="User">
+      <div>
+        <h5 style="font-weight:bold;">Erich Trait</h5>
+        <div class="text-primary mb-2" style="font-size:0.95rem;">Developer</div>
+        <p class="mb-0" style="font-size:0.98rem;">
+          Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, ligula.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container py-5">
+    <div class="row align-items-center">
+    
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="photo/team6.png" alt="client" class="img-fluid shadow" style="box-shadow: -10px 0 15px 15px rgba(0, 0, 0, 0.2) !important;">
+      </div>
+
+      
+      <div class="col-md-8">
+        <div class="text-center mb-4">
+          <div class="d-flex align-items-center justify-content-center text-center my-4">
+              <div class="d-flex flex-column align-items-end me-3">
+                <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+                <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+              </div>
+              <div>
+                <h2 class="fw-bold mb-1">Meet Our Clients</h2>
+                <div class="fs-4 text-primary">Meet Our Clients</div>
+              </div>
+              <div class="d-flex flex-column align-items-start ms-3">
+                <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+                <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+              </div>
+          </div>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g1.png" class="img-fluid" alt="logo1">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g2.png" class="img-fluid" alt="logo2">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g3.png" class="img-fluid" alt="logo3">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g4.png" class="img-fluid" alt="logo4">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g5.png" class="img-fluid" alt="logo5">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="border p-3 text-center">
+              <img src="photo/partner-g2.png" class="img-fluid" alt="logo6">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container py-5">
+      <div class="text-center mb-5">
+        <div class="d-flex align-items-center justify-content-center text-center my-4">
+          <div class="d-flex flex-column align-items-end me-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+          <div>
+            <h2 class="fw-bold mb-1">Latest Blog</h2>
+            <div class="fs-4 text-primary">Latest Blog</div>
+          </div>
+          <div class="d-flex flex-column align-items-start ms-3">
+            <span class="border-top border-2 border-primary mb-1" style="width: 60px;"></span>
+            <span class="border-top border-2 border-primary" style="width: 40px;"></span>
+          </div>
+        </div>
+        <p class="text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        </p>
+</div>
+
+      <div class="row g-4">
+        <!-- Card Start -->
+        <div class="col-md-4">
+          <div class="d-flex blog-card bg-white rounded shadow overflow-hidden">
+            <!-- Social Bar -->
+            <div class="social-bar bg-dark d-flex flex-column justify-content-center align-items-center text-white" style="width: 90px;">
+              <a href="#" class="text-white py-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-google"></i></a>
+            </div>
+            <!-- Card Content -->
+            <div class="flex-grow-1">
+              <img src="photo/6.jpeg" class="card-img-top" alt="...">
+              <div class="p-3">
+                <h5 class="fw-bold">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                <div class="d-flex align-items-center small text-muted mb-2">
+                  <span>By Dim...demo</span>
+                  <div class="mx-2 bg-secondary" style="width: 1px; height: 14px;"></div>
+                  <span>19 Dec 2018</span>
+                </div>
+                <div class="divider-line mb-2"></div>
+                <p class="mb-2">Lorem ipsum dolor sit amet, rquisc adipiscing elit. Aenean sodac commodo ligula...</p>
+                <a href="#" class="text-decoration-none fw-medium text-dark">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex blog-card bg-white rounded shadow overflow-hidden">
+            <div class="social-bar bg-dark d-flex flex-column justify-content-center align-items-center text-white" style="width: 90px;">
+              <a href="#" class="text-white py-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-google"></i></a>
+            </div>
+            <div class="flex-grow-1">
+              <img src="photo/7.jpeg" class="card-img-top" alt="...">
+              <div class="p-3">
+                <h5 class="fw-bold">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                <div class="d-flex align-items-center small text-muted mb-2">
+                  <span>By Dim...demo</span>
+                  <div class="mx-2 bg-secondary" style="width: 1px; height: 14px;"></div>
+                  <span>19 Dec 2018</span>
+                </div>
+                <div class="divider-line mb-2"></div>
+                <p class="mb-2">Lorem ipsum dolor sit amet, rquisc adipiscing elit. Aenean sodac commodo ligula...</p>
+                <a href="#" class="text-decoration-none fw-medium text-dark">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="d-flex blog-card bg-white rounded shadow overflow-hidden">
+            <div class="social-bar bg-dark d-flex flex-column justify-content-center align-items-center text-white" style="width: 90px;">
+              <a href="#" class="text-white py-2"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-white py-2"><i class="bi bi-google"></i></a>
+            </div>
+            <div class="flex-grow-1">
+              <img src="photo/8.jpeg" class="card-img-top" alt="...">
+              <div class="p-3">
+                <h5 class="fw-bold"> Difference Between Hospital & Extras Cover?</h5>
+                <div class="d-flex align-items-center small text-muted mb-2">
+                  <span>By Dim...demo</span>
+                  <div class="mx-2 bg-secondary" style="width: 1px; height: 14px;"></div>
+                  <span>19 Dec 2018</span>
+                </div>
+                <div class="divider-line mb-2"></div>
+                <p class="mb-2">Etiam eros et accumsan et iusto odio dignissimos ducimus qui blanditiis praesentium...</p>
+                <a href="#" class="text-decoration-none fw-medium text-dark">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+</div>  
+
+  <!-- الشريط العلوي الأزرق -->
+   
+<div class="bg-primary text-white py-4 px-3 d-flex justify-content-between align-items-center flex-wrap">
+    <div class="d-flex align-items-center">
+          <div class="me-3 fs-2">📞</div>
+          <h5 class="mb-0">If You Like This Grate Work ?? For You Site...</h5>
+     </div>
+        <a href="#" class="btn btn-light rounded-pill px-4 mt-3 mt-md-0">Purchase Now</a>
+
+  </div>
+</div> 
+
+
+  <!-- الفوتر -->
+<div class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Contact Info</h5>
+          <div class="border-bottom border-primary border-3 mb-3" style="width: 30px;"></div>
+          <ul class="list-unstyled">
+            <li class="mb-2 d-flex align-items-start">
+              <span class="me-2">📍</span>
+              <span>123 Street Market, Life Plaza, New York</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <span class="me-2">📞</span>
+              <span>987654321</span>
+            </li>
+            <li class="mb-2 d-flex align-items-start">
+              <span class="me-2">✉️</span>
+              <span>team@gmail.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Posts -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Posts</h5>
+          <div class="border-bottom border-primary border-3 mb-3" style="width: 30px;"></div>
+
+          <div class="d-flex mb-3">
+            <img src="photo/gallery2-1.png" alt="post" class="me-3" width="60" height="60">
+            <div>
+              <p class="mb-1 small fw-semibold">Four ways to cheer and plan your self up on Blue</p>
+              <small>📅 December 19, 2018</small>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <img src="photo/gallery2-1.png" alt="post" class="me-3" width="60" height="60">
+            <div>
+              <p class="mb-1 small fw-semibold">Four ways to cheer and plan your self up on Blue</p>
+              <small>📅 December 19, 2018</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popular -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Popular</h5>
+          <div class="border-bottom border-primary border-3 mb-3" style="width: 30px;"></div>
+
+          <div class="d-flex flex-wrap gap-2">
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Accountancy</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Affiliate</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Branding</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Construction</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Design</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Drupal</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Education</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Graphics</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Joomla</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Marketing</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Money</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Tally</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Transform</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Website</span>
+            <span class="bg-white text-dark px-3 py-1 rounded-pill small">Wordpress</span>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="project 1.js"></script>
+
+</body>
+</html>
+ 
